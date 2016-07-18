@@ -1,0 +1,13 @@
+slack {
+    // The API token shown on the Slack "Integration Settings" page.
+    bot.token = "xaxb-01234567890-..."
+}
+
+whisk {
+    // Your OpenWhisk credentials. Same as in your ~/.wskprops file.
+    credentials {
+        apihost = "openwhisk.ng.bluemix.net"
+        namespace = "example@example.com_dev"
+        auth = "....:...."
+    }
+}

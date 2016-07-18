@@ -1,0 +1,8 @@
+src/main/resources/application.conf
+project/target
+target
+*.swp
+.classpath
+.project
+.settings
+bin
