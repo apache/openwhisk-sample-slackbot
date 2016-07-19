@@ -128,9 +128,13 @@ object Main {
             System.exit(0)
         }
 
-        // Press Enter, everything stops.
-        scala.io.StdIn.readLine()
-        println("User input. Shutting down...")
+        // Say "stop" to stop.
+        var input = ""
+        while(input.trim != "stop") {
+            println("Say 'stop' to stop.")
+            input = scala.io.StdIn.readLine()
+        }
+        println("Shutting down...")
         shutItDown()
     }
 }
