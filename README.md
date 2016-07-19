@@ -28,3 +28,4 @@ The message needs to contain the keywords "run", "please", and two triple-quoted
 
 * The bot currently only supports JavaScript actions.
 * The bot will stop if the websocket connection is lost.
+* You must assume users of the bot will be able to gain access to the OpenWhisk credentials.
